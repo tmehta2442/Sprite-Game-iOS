@@ -199,6 +199,7 @@
 				TargetAttributes = {
 					33FDEC3E1C40F237007B3188 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 92V56GBZC3;
 					};
 					33FDEC561C40F238007B3188 = {
 						CreatedOnToolsVersion = 7.2;
@@ -405,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Sprite iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TejasTog.Sprite-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Sprite iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TejasTog.Sprite-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -492,6 +499,7 @@
 				33FDEC6D1C40F238007B3188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33FDEC6E1C40F238007B3188 /* Build configuration list for PBXNativeTarget "Sprite iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				33FDEC701C40F238007B3188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33FDEC711C40F238007B3188 /* Build configuration list for PBXNativeTarget "Sprite iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				33FDEC731C40F238007B3188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
